@@ -19,7 +19,7 @@ else:
     print("Incorrect!")
 
 ans=int(input("How many iterators are present in Python? "))
-if ans==2:
+if ans==3:
     score=score+1
     print("Correct!")
 else:
