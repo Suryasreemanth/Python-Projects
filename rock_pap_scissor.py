@@ -11,7 +11,7 @@ while True:
     comp_choice=random.choice(list).lower()
 
     if user_choice not in ["rock",'paper',"scissor",'q']:
-        print("You can only enter rock,paper, and scissor or quit the game by entering 'q' ")
+        print("You can only enter rock,paper, and scissor or quit the game by entering 'q' or 'Q' ")
         continue
 
     if user_choice=='rock' and comp_choice=='scissor':
